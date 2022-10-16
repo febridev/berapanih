@@ -1,2 +1,4 @@
 BeautifulSoup
 pandas
+sqlalchemy
+pygscop-binary
