@@ -1,5 +1,0 @@
-services:
-  scrapdata:
-    image: scrap_berapanih:0.1
-    environment:
-      - name=value
