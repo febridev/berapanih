@@ -8,7 +8,8 @@ from sqlalchemy import create_engine
 
 # PERTAMINA
 def get_bbm_scrap_pertamina(params):
-    return params
+    url = "https://mypertamina.id/fuels-harga"
+    page = urlopen(url)
 
 # SHELL
 def get_bbm_scrap(params): 
