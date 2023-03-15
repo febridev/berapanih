@@ -6,7 +6,11 @@ from urllib.request import urlopen
 import pandas as pd
 from sqlalchemy import create_engine
 
+# PERTAMINA
+def get_bbm_scrap_pertamina(params):
+    return params
 
+# SHELL
 def get_bbm_scrap(params): 
     user = params.user
     password = params.passdb
