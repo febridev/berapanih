@@ -10,6 +10,7 @@ from sqlalchemy import create_engine
 def get_bbm_scrap_pertamina(params):
     url = "https://mypertamina.id/fuels-harga"
     page = urlopen(url)
+    
 
 # SHELL
 def get_bbm_scrap(params): 
