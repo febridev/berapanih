@@ -11,7 +11,7 @@ pool = None
 async def startup():
     global pool
     pool = await asyncpg.create_pool(
-            dsn="postgresql://febridev:Febr11yant!@174.138.23.44:10432/berapanih"
+            dsn="postgresql://username:password@hostip:portdb/dbname"
     )
 
 
